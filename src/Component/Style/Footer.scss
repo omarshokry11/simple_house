@@ -1,0 +1,23 @@
+.footer-container
+{
+  background-color: #FFF;
+  color: #626364;
+  font-size: 1.1rem;
+  padding: 25px 0;
+  line-height: 1.8;
+
+  p
+  {
+    margin: 0;
+    a{
+      color: #626364;
+      text-decoration: none;
+      transition: all .5s;
+      border-bottom: 1px solid #626364;
+      &:hover{
+        color: #1A6692;
+        border-bottom: 1px solid #1A6692;
+      }
+    }
+  }
+}

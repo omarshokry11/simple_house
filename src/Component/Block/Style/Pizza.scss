@@ -1,0 +1,58 @@
+.product-pizza-container
+{
+  padding: 15px 0;
+  img{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  h4{
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #1A6692;
+    margin-bottom: 15px;
+  }
+  .item
+  {
+    p{
+      width: 100%;
+      margin-bottom: 20px;
+      font-size: 1rem;
+    }
+    .price{
+      color: #2F956D;
+      font-size: 1.25rem;
+      margin-bottom: 60px;
+    }
+  }
+  .paragraph
+  {
+    width: 100%;
+    font-size: 1.15rem;
+    line-height: 1.8;
+    color: #626364;
+    a{
+      border-bottom: 1px solid #1A6692;
+      text-decoration: none;
+      color: #1A6692;
+    }
+  }
+  .read
+  {
+    position: absolute;
+    right: 0;
+    display: block;
+    width: 140px;
+    text-align: center;
+    border: 1px solid #98999A;
+    color: #98999A;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 8px 15px;
+    margin-top: 25px;
+    transition: all .5s;
+    &:hover{
+      background-color: #98999A;
+      color: #FFF;
+    }
+  }
+}
